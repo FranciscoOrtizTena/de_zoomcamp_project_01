@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: staging
+    database: eminent-torch-412600
+    schema: project_01
+
+    tables:
+      - name: lap_times
+      - name: drivers_id
+      - name: race_ids
